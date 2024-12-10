@@ -10,9 +10,10 @@
 	</parent>
 	<groupId>mdoer.springframework</groupId>
 	<artifactId>spring-6-rest-mvc</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1</version>
 	<name>spring-6-rest-mvc</name>
 	<description>spring-6-rest-mvc</description>
+	<packaging>war</packaging>
 	<url/>
 	<licenses>
 		<license/>
@@ -76,6 +77,10 @@
                     <target>${java.version}</target>
                 </configuration>
             </plugin>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.4.0</version>
+			</plugin>
 		</plugins>
 	</build>
 
